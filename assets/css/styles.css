@@ -1,12 +1,12 @@
 /* Подключение шрифтов */
 @font-face {
-    font-family: "GudiniGrotesk";
+    font-family: 'GudiniGrotesk';
     font-style: normal;
     font-weight: 400;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("GudiniGrotesk"),
+    src: local('GudiniGrotesk'),
         /* Если не получилось, загрузит */
-        url('../fonts/GudiniGrotesk/GUDINI.otf') format("otf");
+        url('../fonts/GudiniGrotesk/GUDINI.otf') format('otf');
 }
 
 @font-face {
@@ -98,7 +98,7 @@ input[type="radio"]:focus {
 }
 
 h1 {
-    font-family: "GudiniGrotesk";
+    font-family: 'GudiniGrotesk';
     color: #EDEDED;
     margin-bottom: 10px;
     font-weight: 400;
@@ -106,7 +106,7 @@ h1 {
 
 h2 {
     color: #181818;
-    font-family: "GudiniGrotesk";
+    font-family: 'GudiniGrotesk';
     font-weight: 400;
 }
 
