@@ -6,7 +6,7 @@
     /* Браузер сначала попробует найти шрифт локально */
     src: local('GudiniGrotesk'),
         /* Если не получилось, загрузит */
-        url('../fonts/GudiniGrotesk/GUDINI.otf') format('otf');
+        url('../fonts/GudiniGrotesk/GUDINI.otf') format('opentype');
 }
 
 @font-face {
