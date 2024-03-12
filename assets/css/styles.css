@@ -6,7 +6,7 @@
     /* Браузер сначала попробует найти шрифт локально */
     src: local('GudiniGrotesk'),
         /* Если не получилось, загрузит */
-        url('./fonts/GudiniGrotesk/GUDINI.otf') format('opentype');
+        url(./fonts/GudiniGrotesk/GUDINI.otf) format('opentype');
 }
 
 @font-face {
@@ -99,7 +99,7 @@ input[type="radio"]:focus {
 
 h1 {
     font-family: 'TT Firs Neue';
-    font-family: 'GudiniGrotesk';
+    font-family: GudiniGrotesk;
     color: #EDEDED;
     margin-bottom: 10px;
     font-weight: 400;
