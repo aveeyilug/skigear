@@ -98,6 +98,7 @@ input[type="radio"]:focus {
 }
 
 h1 {
+    font-family: 'TT Firs Neue';
     font-family: 'GudiniGrotesk';
     color: #EDEDED;
     margin-bottom: 10px;
@@ -105,14 +106,16 @@ h1 {
 }
 
 h2 {
+    font-family: 'TT Firs Neue';
     color: #181818;
     font-family: 'GudiniGrotesk';
     font-weight: 400;
 }
 
 h3 {
+    font-family: 'TT Firs Neue';
     color: #EDEDED;
-    font-family: "GudiniGrotesk";
+    font-family: 'GudiniGrotesk';
     font-weight: 400;
 }
 
